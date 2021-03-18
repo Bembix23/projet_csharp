@@ -23,7 +23,17 @@ namespace projet_csharp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Liste_des_stations()
+        {
+            return View();
+        }
+
+        public IActionResult Carte()
+        {
+            return View();
+        }
+
+        public IActionResult Mes_favoris()
         {
             return View();
         }
